@@ -66,7 +66,7 @@ Funcionalidade: Comprar passagem aérea
     Dado acesso a pagina  de Login
     Quando preencho o <"email"> e a <"senha">
     E clico no botao Login
-    Entao visualiza a <mensagem>
+    Entao visualiza a <"mensagem">
   Exemplos:
     | email             | senha  | tipo | messagem                |
     | cliente@gmail.com | 123456 |P     |mensagem de sucesso      |
