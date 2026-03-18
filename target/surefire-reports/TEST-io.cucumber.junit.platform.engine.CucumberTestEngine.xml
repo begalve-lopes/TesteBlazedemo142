@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="io.cucumber.junit.platform.engine.CucumberTestEngine" time="34.805" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="io.cucumber.junit.platform.engine.CucumberTestEngine" time="13.279" tests="2" errors="2" skipped="0" failures="0">
   <properties>
     <property name="cucumber.features" value="src/test/resources/featuresPO"/>
     <property name="surefire.includeJUnit5Engines" value="cucumber"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PT"/>
     <property name="sun.boot.library.path" value="/home/begas/.sdkman/candidates/java/25.0.1-amzn/lib"/>
-    <property name="sun.java.command" value="/home/begas/Documentos/Meus Projectos/iterasys/blazedemo142/target/surefire/surefirebooter-20260318140509135_3.jar /home/begas/Documentos/Meus Projectos/iterasys/blazedemo142/target/surefire 2026-03-18T14-05-08_823-jvmRun1 surefire-20260318140509135_1tmp surefire_0-20260318140509135_2tmp"/>
+    <property name="sun.java.command" value="/home/begas/Documentos/Meus Projectos/iterasys/blazedemo142/target/surefire/surefirebooter-20260318143852474_3.jar /home/begas/Documentos/Meus Projectos/iterasys/blazedemo142/target/surefire 2026-03-18T14-38-52_278-jvmRun1 surefire-20260318143852474_1tmp surefire_0-20260318143852474_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/begas/Documentos/Meus Projectos/iterasys/blazedemo142/target/test-classes:/home/begas/Documentos/Meus Projectos/iterasys/blazedemo142/target/classes:/home/begas/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.1/junit-jupiter-api-5.11.1.jar:/home/begas/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/begas/.m2/repository/org/junit/platform/junit-platform-commons/1.11.1/junit-platform-commons-1.11.1.jar:/home/begas/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/begas/.m2/repository/org/hamcrest/hamcrest/3.0/hamcrest-3.0.jar:/home/begas/.m2/repository/org/seleniumhq/selenium/selenium-java/4.25.0/selenium-java-4.25.0.jar:/home/begas/.m2/repository/org/seleniumhq/selenium/selenium-api/4.25.0/selenium-api-4.25.0.jar:/home/begas/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/begas/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.25.0/selenium-chrome-driver-4.25.0.jar:/home/begas/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/begas/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.25.0/selenium-chromium-driver-4.25.0.jar:/home/begas/.m2/repository/org/seleniumhq/selenium/selenium-json/4.25.0/selenium-json-4.25.0.jar:/home/begas/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.25.0/selenium-manager-4.25.0.jar:/home/begas/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v127/4.25.0/selenium-devtools-v127-4.25.0.jar:/home/begas/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v128/4.25.0/selenium-devtools-v128-4.25.0.jar:/home/begas/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v129/4.25.0/selenium-devtools-v129-4.25.0.jar:/home/begas/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.25.0/selenium-devtools-v85-4.25.0.jar:/home/begas/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.25.0/selenium-edge-driver-4.25.0.jar:/home/begas/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.25.0/selenium-firefox-driver-4.25.0.jar:/home/begas/.m2/repository/org/seleniumhq/selenium/selenium-http/4.25.0/selenium-http-4.25.0.jar:/home/begas/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/home/begas/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.25.0/selenium-ie-driver-4.25.0.jar:/home/begas/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.25.0/selenium-remote-driver-4.25.0.jar:/home/begas/.m2/repository/com/google/guava/guava/33.3.0-jre/guava-33.3.0-jre.jar:/home/begas/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/home/begas/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/begas/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/begas/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/home/begas/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/home/begas/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/home/begas/.m2/repository/io/opentelemetry/opentelemetry-api/1.42.1/opentelemetry-api-1.42.1.jar:/home/begas/.m2/repository/io/opentelemetry/opentelemetry-context/1.42.1/opentelemetry-context-1.42.1.jar:/home/begas/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.42.1/opentelemetry-exporter-logging-1.42.1.jar:/home/begas/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.42.1/opentelemetry-sdk-common-1.42.1.jar:/home/begas/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.42.1/opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar:/home/begas/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.42.1/opentelemetry-sdk-extension-autoconfigure-1.42.1.jar:/home/begas/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.42.1-alpha/opentelemetry-api-incubator-1.42.1-alpha.jar:/home/begas/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.42.1/opentelemetry-sdk-trace-1.42.1.jar:/home/begas/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.42.1/opentelemetry-sdk-1.42.1.jar:/home/begas/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.42.1/opentelemetry-sdk-metrics-1.42.1.jar:/home/begas/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.42.1/opentelemetry-sdk-logs-1.42.1.jar:/home/begas/.m2/repository/net/bytebuddy/byte-buddy/1.15.1/byte-buddy-1.15.1.jar:/home/begas/.m2/repository/org/seleniumhq/selenium/selenium-os/4.25.0/selenium-os-4.25.0.jar:/home/begas/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/home/begas/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.25.0/selenium-safari-driver-4.25.0.jar:/home/begas/.m2/repository/org/seleniumhq/selenium/selenium-support/4.25.0/selenium-support-4.25.0.jar:/home/begas/.m2/repository/io/github/bonigarcia/webdrivermanager/6.1.0/webdrivermanager-6.1.0.jar:/home/begas/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/home/begas/.m2/repository/com/google/code/gson/gson/2.13.0/gson-2.13.0.jar:/home/begas/.m2/repository/com/google/errorprone/error_prone_annotations/2.37.0/error_prone_annotations-2.37.0.jar:/home/begas/.m2/repository/com/github/docker-java/docker-java/3.5.0/docker-java-3.5.0.jar:/home/begas/.m2/repository/com/github/docker-java/docker-java-core/3.5.0/docker-java-core-3.5.0.jar:/home/begas/.m2/repository/com/github/docker-java/docker-java-api/3.5.0/docker-java-api-3.5.0.jar:/home/begas/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3.jar:/home/begas/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3.jar:/home/begas/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3.jar:/home/begas/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/home/begas/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.5.0/docker-java-transport-httpclient5-3.5.0.jar:/home/begas/.m2/repository/com/github/docker-java/docker-java-transport/3.5.0/docker-java-transport-3.5.0.jar:/home/begas/.m2/repository/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar:/home/begas/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/home/begas/.m2/repository/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar:/home/begas/.m2/repository/org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.jar:/home/begas/.m2/repository/commons-codec/commons-codec/1.17.1/commons-codec-1.17.1.jar:/home/begas/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/home/begas/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.4.3/httpclient5-5.4.3.jar:/home/begas/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.3.4/httpcore5-5.3.4.jar:/home/begas/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.3.4/httpcore5-h2-5.3.4.jar:/home/begas/.m2/repository/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar:/home/begas/.m2/repository/io/cucumber/cucumber-java/7.20.1/cucumber-java-7.20.1.jar:/home/begas/.m2/repository/io/cucumber/cucumber-core/7.20.1/cucumber-core-7.20.1.jar:/home/begas/.m2/repository/io/cucumber/cucumber-gherkin/7.20.1/cucumber-gherkin-7.20.1.jar:/home/begas/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.20.1/cucumber-gherkin-messages-7.20.1.jar:/home/begas/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/home/begas/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/home/begas/.m2/repository/io/cucumber/testng-xml-formatter/0.2.0/testng-xml-formatter-0.2.0.jar:/home/begas/.m2/repository/io/cucumber/query/12.2.0/query-12.2.0.jar:/home/begas/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/home/begas/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/home/begas/.m2/repository/io/cucumber/datatable/7.20.1/datatable-7.20.1.jar:/home/begas/.m2/repository/io/cucumber/cucumber-plugin/7.20.1/cucumber-plugin-7.20.1.jar:/home/begas/.m2/repository/io/cucumber/docstring/7.20.1/docstring-7.20.1.jar:/home/begas/.m2/repository/io/cucumber/html-formatter/21.7.0/html-formatter-21.7.0.jar:/home/begas/.m2/repository/io/cucumber/junit-xml-formatter/0.5.0/junit-xml-formatter-0.5.0.jar:/home/begas/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/home/begas/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.20.1/cucumber-junit-platform-engine-7.20.1.jar:/home/begas/.m2/repository/org/junit/platform/junit-platform-engine/1.11.2/junit-platform-engine-1.11.2.jar:/home/begas/.m2/repository/io/cucumber/cucumber-picocontainer/7.20.1/cucumber-picocontainer-7.20.1.jar:/home/begas/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/begas/Documentos/Meus Projectos/iterasys/blazedemo142/target/surefire/surefirebooter-20260318140509135_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/begas/Documentos/Meus Projectos/iterasys/blazedemo142/target/surefire/surefirebooter-20260318143852474_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.1+8-LTS"/>
     <property name="user.name" value="begas"/>
@@ -59,10 +59,41 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="Example #1.1" classname="Exemplos" time="19.229">
-    <system-out><![CDATA[Passagem comprada com sucesso!
+  <testcase name="Example #1.1" classname="Exemplos" time="7.431">
+    <error message="The step &apos;cliclo na 2 PO&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@Quando(&quot;cliclo na {int} PO&quot;)&#10;public void cliclo_na_po(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'cliclo na 2 PO' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Quando("cliclo na {int} PO")
+public void cliclo_na_po(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.junit.platform.engine.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:22)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:116)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:111)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+]]></error>
+    <system-out><![CDATA[
+Esquema do Cenario: Comprar com sucesso PO           &amp#27;[90m# src/test/resources/featuresPO/ComprarPassagemPO.feature:13&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque acesso o site &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://blazedemo.com/"&amp#27;[0m&amp#27;[32m PO&amp#27;[0m &amp#27;[90m# stepsPO.ComprarPassagemPO.que_acesso_o_site_po(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mseleciono a &amp#27;[0m&amp#27;[32m&amp#27;[1m"São Paolo"&amp#27;[0m&amp#27;[32m e &amp#27;[0m&amp#27;[32m&amp#27;[1m"Cairo"&amp#27;[0m&amp#27;[32m PO&amp#27;[0m        &amp#27;[90m# stepsPO.ComprarPassagemPO.seleciono_a_e_po(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mclico no botao Find Flights PO&amp#27;[0m                   &amp#27;[90m# stepsPO.ComprarPassagemPO.clico_no_botao_find_flights_po()&amp#27;[0m
+Passagem comprada com sucesso!
+  &amp#27;[32mEntao &amp#27;[0m&amp#27;[32mvisualiza a lista de voos PO&amp#27;[0m                 &amp#27;[90m# stepsPO.ComprarPassagemPO.visualiza_a_lista_de_voos_po()&amp#27;[0m
+  &amp#27;[33mQuando &amp#27;[0m&amp#27;[33mcliclo na 2 PO&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[mar. 18, 2026 2:05:10 DA TARDE io.cucumber.junit.platform.engine.DiscoverySelectorResolver warnWhenCucumberFeaturesPropertyIsUsed
+    <system-err><![CDATA[mar. 18, 2026 2:38:53 DA TARDE io.cucumber.junit.platform.engine.DiscoverySelectorResolver warnWhenCucumberFeaturesPropertyIsUsed
 WARNING: Discovering tests using the cucumber.features property. Other discovery selectors are ignored!
 
 This is a work around for the limited JUnit 5 support in Maven and Gradle. Please request/upvote/sponsor/ect better support for JUnit 5 discovery selectors. For details see: https://github.com/cucumber/cucumber-jvm/pull/2498
@@ -71,26 +102,49 @@ If you are using the JUnit 5 Suite Engine, Platform Launcher API or Console Laun
 SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-mar. 18, 2026 2:05:15 DA TARDE org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+mar. 18, 2026 2:38:56 DA TARDE org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-mar. 18, 2026 2:05:15 DA TARDE org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 145.0.7632.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-mar. 18, 2026 2:05:16 DA TARDE org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 145
-mar. 18, 2026 2:05:16 DA TARDE org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+mar. 18, 2026 2:38:56 DA TARDE org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.2" classname="Exemplos" time="15.325">
-    <system-out><![CDATA[Passagem comprada com sucesso!
+  <testcase name="Example #1.2" classname="Exemplos" time="5.688">
+    <error message="The step &apos;cliclo na 5 PO&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@Quando(&quot;cliclo na {int} PO&quot;)&#10;public void cliclo_na_po(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'cliclo na 5 PO' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Quando("cliclo na {int} PO")
+public void cliclo_na_po(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.junit.platform.engine.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:22)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:116)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:111)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+]]></error>
+    <system-out><![CDATA[
+Esquema do Cenario: Comprar com sucesso PO           &amp#27;[90m# src/test/resources/featuresPO/ComprarPassagemPO.feature:14&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque acesso o site &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://blazedemo.com/"&amp#27;[0m&amp#27;[32m PO&amp#27;[0m &amp#27;[90m# stepsPO.ComprarPassagemPO.que_acesso_o_site_po(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mseleciono a &amp#27;[0m&amp#27;[32m&amp#27;[1m"Boston"&amp#27;[0m&amp#27;[32m e &amp#27;[0m&amp#27;[32m&amp#27;[1m"London"&amp#27;[0m&amp#27;[32m PO&amp#27;[0m          &amp#27;[90m# stepsPO.ComprarPassagemPO.seleciono_a_e_po(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mclico no botao Find Flights PO&amp#27;[0m                   &amp#27;[90m# stepsPO.ComprarPassagemPO.clico_no_botao_find_flights_po()&amp#27;[0m
+Passagem comprada com sucesso!
+  &amp#27;[32mEntao &amp#27;[0m&amp#27;[32mvisualiza a lista de voos PO&amp#27;[0m                 &amp#27;[90m# stepsPO.ComprarPassagemPO.visualiza_a_lista_de_voos_po()&amp#27;[0m
+  &amp#27;[33mQuando &amp#27;[0m&amp#27;[33mcliclo na 5 PO&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[mar. 18, 2026 2:05:31 DA TARDE org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[mar. 18, 2026 2:39:02 DA TARDE org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-mar. 18, 2026 2:05:31 DA TARDE org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 145.0.7632.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-mar. 18, 2026 2:05:32 DA TARDE org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 145
-mar. 18, 2026 2:05:32 DA TARDE org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+mar. 18, 2026 2:39:02 DA TARDE org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 145.0.7632.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>

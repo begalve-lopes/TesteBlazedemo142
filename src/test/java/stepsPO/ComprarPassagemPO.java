@@ -26,7 +26,7 @@ public class ComprarPassagemPO {
 
     @Dado("que acesso o site {string} PO")
     public void que_acesso_o_site_po(String url) {
-        homePage.acessarHomePage(url);  
+        homePage.acessarHomePage(url);
         assertEquals("BlazeDemo", homePage.lerNomeDaGuia());
     }
 
@@ -35,7 +35,7 @@ public class ComprarPassagemPO {
         this.origem = origem;
         this.destino = destino;
         homePage.selecionarOrigemDestino(origem, destino);
-        
+
         synchronized (driver) {
             try {
                 driver.wait(1000);
@@ -64,4 +64,15 @@ public class ComprarPassagemPO {
         }
     }
 
+    @Quando("cliclo na {int} PO")
+    public void cliclo_na_po(Integer ordem_do_voo) {
+       reservePage.cliclarNoVoo(ordem_do_voo);
+        synchronized (driver) {
+            try {
+                driver.wait(1000);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
 }
