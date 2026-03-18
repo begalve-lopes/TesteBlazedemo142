@@ -1,7 +1,6 @@
 package pages;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
+
 import org.openqa.selenium.WebDriver;
 
 public class CommonPage {
@@ -11,13 +10,7 @@ public class CommonPage {
         this.driver = driver;
     }
 
-    @BeforeEach
-    public void setUp(){
-        
-    }
-
-    @AfterEach
-    public void tearDown(){
-        
+    public String lerNomeDaGuia(){
+        return driver.getTitle();
     }
 }

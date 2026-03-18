@@ -19,8 +19,18 @@ public class HomePage extends CommonPage{
     @FindBy(css = "input[value]")
     WebElement btnFindFlights;
 
-    public void clickFindFlights(){
+    public void selecionarOrigemDestino(String byOrigem,String byDestino){
+        driver.findElement(byLocal(byOrigem)).click();
+        driver.findElement(byLocal(byDestino)).click();
+    }
+
+    public void clicarBotaoFindFlights(){
         btnFindFlights.click();
     }
 
+    public void acessarHomePage(String url){
+        driver.get(url);
+    }
+
+   
 }

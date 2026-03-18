@@ -1,2 +1,9 @@
 /home/begas/Documentos/Meus Projectos/iterasys/blazedemo142/src/test/java/PassagemTest.java
+/home/begas/Documentos/Meus Projectos/iterasys/blazedemo142/src/test/java/pages/Base.java
+/home/begas/Documentos/Meus Projectos/iterasys/blazedemo142/src/test/java/pages/CommonPage.java
+/home/begas/Documentos/Meus Projectos/iterasys/blazedemo142/src/test/java/pages/HomePage.java
+/home/begas/Documentos/Meus Projectos/iterasys/blazedemo142/src/test/java/pages/ReservePage.java
 /home/begas/Documentos/Meus Projectos/iterasys/blazedemo142/src/test/java/step/ComprarPassagemBDD.java
+/home/begas/Documentos/Meus Projectos/iterasys/blazedemo142/src/test/java/stepsPO/ComprarPassagemPO.java
+/home/begas/Documentos/Meus Projectos/iterasys/blazedemo142/src/test/java/stepsPO/Hooks.java
+/home/begas/Documentos/Meus Projectos/iterasys/blazedemo142/src/test/java/stepsPO/Runner.java

@@ -18,7 +18,7 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
-            <version>5.11.2</version>
+            <version>5.11.1</version>
             <scope>test</scope>
         </dependency>
 
@@ -58,9 +58,14 @@
             <version>7.20.1</version>
             <scope>test</scope>
         </dependency>
-
         
-
+        <!-- Source: https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-picocontainer</artifactId>
+            <version>7.20.1</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
 </project> 
