@@ -38,7 +38,7 @@ public class ComprarPassagemPO {
         
         synchronized (driver) {
             try {
-                driver.wait(5000);
+                driver.wait(1000);
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -57,7 +57,7 @@ public class ComprarPassagemPO {
         System.out.println("Passagem comprada com sucesso!");
         synchronized (driver) {
             try {
-                driver.wait(5000);
+                driver.wait(1000);
             } catch (Exception e) {
                 e.printStackTrace();
             }
