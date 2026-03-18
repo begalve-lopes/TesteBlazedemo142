@@ -35,6 +35,14 @@ public class ComprarPassagemPO {
         this.origem = origem;
         this.destino = destino;
         homePage.selecionarOrigemDestino(origem, destino);
+        
+        synchronized (driver) {
+            try {
+                driver.wait(5000);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
     }
 
     @Quando("clico no botao Find Flights PO")
@@ -47,6 +55,13 @@ public class ComprarPassagemPO {
         assertEquals("BlazeDemo - reserve", reservePage.lerNomeDaGuia());
         assertEquals("Flights from " + this.origem + " to " + this.destino + ":", reservePage.lerCabecalhoVoos());
         System.out.println("Passagem comprada com sucesso!");
+        synchronized (driver) {
+            try {
+                driver.wait(5000);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
     }
 
 }
